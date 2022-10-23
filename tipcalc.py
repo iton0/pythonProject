@@ -12,7 +12,7 @@ if percentage <= 20:
     print("Tip Amount - $" + tip_amount)
     total_bill = float(bill + (bill * percentage / 100))
     print("The total bill including tip - $" + "{:.2f}".format(total_bill))
-    print("Thank you for using #insert app name#, have a great day!")
+    print("Thank you for using TipJar, have a great day!")
 else:
     print("Are you sure this is the right amount? (yes/no): ")
     user_input = input()
